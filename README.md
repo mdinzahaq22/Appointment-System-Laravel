@@ -1,18 +1,9 @@
 # Doctor appointment web app built with Laravel
 
-![Home Page](https://github.com/khoadodk/appointment-laravel/blob/master/homepage.PNG)
-
-# http://appointment-laravel.herokuapp.com/
-
 # Credentials to test this app
 
 -   Admin--email: admin@gmail.com, password: password
 -   Patient--email: patient@gmail.com, password: password
-
-### To-do-list
-
--   Need to add seeder
--   Use image url instead of local files.s
 
 ### Functionality Overview
 
@@ -26,9 +17,15 @@
 -   Patient can make/update their profile.
 -   Dashboard analytics.
 
-### Ideas
+### How to use
+Clone the repository with git clone
+Copy .env.example file to .env and edit database credentials there
+Run composer install
+Run php artisan key:generate
+Run php artisan migrate --seed (it has some seeded data for your testing)
+That's it: launch the main URL.
+You can login to adminpanel with default credentials admin@admin.com - password
+License
+Basically, feel free to use and re-use any way you want.
 
-This app can be extended by adding more features or rename the variables to fit the business model
 
--   Adding SMS notifications to patients and doctors (AWS SNS).
--   Allow doctors to export appointment time to calendar.
