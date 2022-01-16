@@ -24,7 +24,5 @@
 -   Run php artisan migrate --seed (it has some seeded data for your testing)
 -   That's it: launch the main URL.
 -   You can login to adminpanel with default credentials admin@admin.com - password
--   License
--   Basically, feel free to use and re-use any way you want.
 
 
