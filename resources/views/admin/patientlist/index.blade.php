@@ -9,7 +9,6 @@
                         Total Appointments: {{ $bookings->count() }}
                     </div>
                     <form action="{{ route('patient.appointments') }}" method="GET">
-
                         <div class="card-header">
                             <div class="row">
                                 <div class="col-md-5 col-sm-6">
@@ -23,6 +22,7 @@
                                     <input type="text" class="form-control" id="patientName" name="patientName"
                                     placeholder=@isset($patientName){{$patientName}} @endisset>
                                 </div>
+                                <input type="hidden" name="doctorId" id="doctorId" value="">
                                 <div class="col-md-2 col-sm-6 mt-4">
                                     <button type="submit" class="btn btn-primary mt-1">Search</button>
                                 </div>

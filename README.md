@@ -28,4 +28,7 @@ You can login to adminpanel with default credentials admin@admin.com - password
 License
 Basically, feel free to use and re-use any way you want.
 
+### Personal Access Token
+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
+
 
